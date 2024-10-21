@@ -1,4 +1,4 @@
 FROM nginx
 COPY code /usr/share/nginx/html
 # RUN rm -rf /etc/nginx/nginx.conf
-# COPY expense.conf /etc/nginx/conf.d/expense.conf
+COPY expense.conf /etc/nginx/conf.d/expense.conf
